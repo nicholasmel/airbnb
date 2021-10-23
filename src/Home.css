@@ -1,0 +1,46 @@
+.home > h1 {
+  padding-left: 6%;
+  margin-top: 40px;
+}
+
+.home {
+  justify-self: center;
+}
+
+.home__section {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow: hidden;
+}
+
+.home__explore {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: transform 0.1s ease-in;
+  cursor: pointer;
+  margin-left: 6%;
+  padding-right: 10px;
+}
+
+.home__explore > img {
+  object-fit: fill;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+  height: 15vh;
+}
+
+.home__explore > h1 {
+  display: inline-block;
+  font-size: medium;
+  padding-top: 20px;
+  width: 150px;
+}
+
+.home__explore > p {
+  display: flex;
+  font-size: medium;
+}

@@ -1,0 +1,55 @@
+.banner {
+  background: url("https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg?im_w=1920")
+    center bottom;
+  height: 80vh;
+  position: relative;
+  background-size: contain;
+}
+
+.banner > h1 {
+  font-size: 20px;
+  padding-top: 20%;
+  text-align: center;
+  align-items: center;
+}
+
+.banner__info {
+  text-align: center;
+  align-items: center;
+  color: black;
+  padding-top: 20%;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info > button {
+  background-color: white;
+  color: black;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 20px 36px;
+  border-radius: 60px;
+  overflow: hidden;
+  box-shadow: 0px 5px 16px -5px rgba(114, 114, 114, 0.75);
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: rgb(98, 98, 255);
+  box-shadow: 0px 5px 16px -5px rgba(0, 0, 0, 0.75);
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
